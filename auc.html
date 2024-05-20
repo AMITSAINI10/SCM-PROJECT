@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="CE.css"> 
+</head>
+<body>
+    <header class="header">
+        <h1 class="logo">AUCTION PLAZA!</h1> 
+        <nav>
+            <ul class="nav-list">
+                <li><a href="CE.html">Home</a></li>
+                <li><a href="#">Auctions</a></li>
+                <li><a href="#">My Account</a></li>
+                <li><a href="#">Logout</a></li>
+            </ul>
+        </nav>
+        
+    </header>
+    <section id="auction-items">
+        <div class="item" id="item1">
+            <img src="watch.webp" alt="Luxury Watch"  height="390px">
+            <h2>Luxury Watch Auction</h2>
+            <p>A beautiful luxury watch with intricate details.</p>
+            <button onclick="placeBid('item1')">Place Bid</button>
+            <p id="bid1">Current Bid: $0</p>
+        </div>
+
+        <div class="item" id="item2">
+            <img src="bat.jpg" alt="Cricket Bat"  height="390px">
+            <h2>Cricket Bat</h2>
+            <p>An English Willow Cricket Bat.</p>
+            <button onclick="placeBid('item2')">Place Bid</button>
+            <p id="bid2">Current Bid: $0</p>
+        </div>
+  <div class="item" id="item3">
+            <img src="music player.jpg" alt="Music player"  height="390px">
+            <h2>Music player</h2>
+            <p>16 GB  Music player</p>
+            <button onclick="placeBid('item3')">Place Bid</button>
+            <p id="bid3">Current Bid: $0</p>
+        </div>
+    </section>
+    <script src="CE.js"></script>
+</body>
+</html>
